@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Go_To_Level_One : MonoBehaviour
+public class Go_To_Level_2 : MonoBehaviour
 {
-    public string Destination_Scene;
-
-
     public void NextScene()
     {
-        SceneManager.LoadScene(Destination_Scene);
+        SceneManager.LoadScene("Second_Level");
     }
 }

@@ -18,7 +18,7 @@ public class Lvl_1_Win : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Second_Level");
+            SceneManager.LoadScene("Complete_Level_One");
         }
     }
 }

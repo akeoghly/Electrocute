@@ -229,6 +229,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 61034008148814886, guid: 30a98f9629c7aab47b462344b3e0ec43,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30a98f9629c7aab47b462344b3e0ec43, type: 2}
   m_IsPrefabAsset: 0
@@ -347,6 +352,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1848722285}
+  newplayer: {fileID: 1272360556999782, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
+  x_axis: 5.63
+  y_axis: 3.96
 --- !u!50 &1156864717
 Rigidbody2D:
   serializedVersion: 4
@@ -366,7 +374,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 5
 --- !u!1001 &1274182060
 Prefab:
   m_ObjectHideFlags: 0
@@ -376,11 +384,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.33
       objectReference: {fileID: 0}
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.04
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.z
