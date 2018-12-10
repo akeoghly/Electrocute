@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Destroy_On_Collision : MonoBehaviour {
 
+    public string Current_Scene;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +20,7 @@ public class Destroy_On_Collision : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("First_Level");
+            SceneManager.LoadScene(Current_Scene);
         }
     }
 }

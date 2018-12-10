@@ -8,6 +8,7 @@ public class TimedWaterCreation : MonoBehaviour {
     public GameObject Water;
     public int x;
     public int BallSpawnNumber;
+    public float TimeToWaitFloat;
 
 	// Use this for initialization
 	void Start () {
@@ -31,7 +32,7 @@ public class TimedWaterCreation : MonoBehaviour {
                 GameObject tempWater = Instantiate(Water);
                 tempWater.GetComponent<Rigidbody2D>().AddTorque(0.1f);
             }
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(TimeToWaitFloat);
             for (int i = 0; i < BallSpawnNumber; i++)
             {
 

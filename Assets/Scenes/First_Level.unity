@@ -190,6 +190,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &243736858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1272360556999782, guid: 0508ea36b53356741becf4cced98a8b6,
+    type: 2}
+  m_PrefabInternal: {fileID: 643694447}
+--- !u!50 &243736864
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243736858}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &316546624
 Prefab:
   m_ObjectHideFlags: 0
@@ -275,6 +300,7 @@ MonoBehaviour:
   Water: {fileID: 1949056213612466, guid: 699cd91dc20ec24498e4da127fb02006, type: 2}
   x: 1
   BallSpawnNumber: 20
+  TimeToWaitFloat: 2
 --- !u!1001 &643694447
 Prefab:
   m_ObjectHideFlags: 0
@@ -284,11 +310,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.75
+      value: -7.81
       objectReference: {fileID: 0}
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.04
+      value: 2.89
       objectReference: {fileID: 0}
     - target: {fileID: 4111898667289760, guid: 0508ea36b53356741becf4cced98a8b6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -628,9 +654,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01699d1aa3eb8904dae38d61b2eef72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Water: {fileID: 1179749854165392, guid: c5ca1a8c6aac7374bbf1cf929e3952c0, type: 2}
+  Water: {fileID: 1179749854165392, guid: c06092f0ce2953e41b31f7c2356b69de, type: 2}
   x: 1
   BallSpawnNumber: 50
+  TimeToWaitFloat: 1.4
 --- !u!4 &1773710245
 Transform:
   m_ObjectHideFlags: 0

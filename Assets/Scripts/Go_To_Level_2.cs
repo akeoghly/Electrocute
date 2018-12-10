@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Go_To_Level_2 : MonoBehaviour
 {
+    public string Continue_Scene;
+
+
     public void NextScene()
     {
-        SceneManager.LoadScene("Second_Level");
+        SceneManager.LoadScene(Continue_Scene);
     }
 }

@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Lvl_1_Win : MonoBehaviour {
 
+    public string NextScene;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -18,7 +20,7 @@ public class Lvl_1_Win : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Complete_Level_One");
+            SceneManager.LoadScene(NextScene);
         }
     }
 }
