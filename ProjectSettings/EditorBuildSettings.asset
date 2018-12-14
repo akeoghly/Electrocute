@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Complete_Level_Two.unity
     guid: 2392375736f0cc340984696c350eec39
+  - enabled: 1
+    path: Assets/Scenes/Third_Level.unity
+    guid: cf0c3f37ea2fd614c8eb3f0e1a1cffd6
+  - enabled: 1
+    path: Assets/Scenes/Retry_Level_Three.unity
+    guid: 7e4ee31b7e065f347ba46737ce3d11c0
+  - enabled: 1
+    path: Assets/Scenes/Complete_Level_Three.unity
+    guid: 09cd5390f63d2654d9155249e74dce97
   m_configObjects: {}

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleportation : MonoBehaviour
+public class New_Teleportation : MonoBehaviour
 {
     public GameObject player;
     public GameObject newplayer;
@@ -13,9 +13,9 @@ public class Teleportation : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag == "teleport")
         {
-            Destroy(player);
+            Destroy(gameObject);
             Instantiate(newplayer, new Vector3(x_axis, y_axis, 0), transform.rotation);
         }
     }
